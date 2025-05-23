@@ -29,9 +29,9 @@ SECRET_KEY = os.getenv('SECRET')
 DEBUG = False
 
 
-ALLOWED_HOSTS = ['backend.asoucab.com']
-CSRF_TRUSTED_ORIGINS = ['https://asoron.netlify.app','https://b8esports.com']
-CORS_ALLOWED_ORIGINS = ['https://asoron.netlify.app','https://b8esports.com']
+ALLOWED_HOSTS = ['']
+CSRF_TRUSTED_ORIGINS = ['']
+CORS_ALLOWED_ORIGINS = ['']
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_ALL_ORIGINS = False
 
